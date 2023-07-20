@@ -6,7 +6,7 @@ const usersRouter = require("./auth");
 
 /* GET home page. */
 router.get("/", function (req, res, next) {
-  res.render("index", { title: "Express" });
+  res.render("index", { title: "Hello and Welcome to Express!" });
 });
 
 router.use("/users", usersRouter);
